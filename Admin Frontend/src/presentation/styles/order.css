@@ -1,0 +1,148 @@
+.order-container {
+  margin: 2em 5em;
+  /* max-width: 1000px; */
+}
+
+.order-unit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 0em;
+  margin-bottom: 3em;
+  flex-wrap: wrap-reverse;
+}
+.order-img {
+  height: 4em;
+}
+.left {
+  max-width: 30em;
+  width: 30em;
+  /* margin: 0em 1em; */
+}
+.scrollable {
+  /* background-color: aqua; */
+  max-height: 18em;
+  overflow: scroll;
+}
+.left > button {
+  width: 100%;
+  padding: 1em;
+  background: #0058cc;
+  color: white;
+  font-size: 1em;
+  border: none;
+}
+.left > hr {
+  margin: 1em 0em;
+  background-color: #d9d9d9;
+  border: none;
+  height: 2px;
+}
+.left > h1 {
+  font-size: 1.6em;
+}
+.left > h1 > span {
+  font-size: 0.9em;
+  color: #787d7e;
+}
+.product {
+  display: flex;
+  align-items: center;
+  margin: 1em 0em;
+}
+.product > h3 {
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0em 1em;
+  max-width: 8em;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details > h3 {
+  font-weight: 400;
+  color: gray;
+  font-size: 1em;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  margin: 1em;
+  max-width: 30em;
+  background: #f7f7f7;
+  padding: 2em 4em;
+  /* text-align: center; */
+}
+.right > h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0.5em 0em;
+}
+.right > h2 {
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5em;
+  max-width: 10em;
+}
+
+.empty-container {
+  margin: 4em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.empty-svg {
+  height: 5em;
+  margin: 1em;
+  color: #787d7e;
+}
+
+.empty-title {
+  font-weight: 500;
+}
+.empty-link {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  margin: 1em 0em;
+  margin-left: -1em;
+  color: #0058cc;
+  cursor: pointer;
+}
+.empty-link > svg {
+  height: 1em;
+  margin: 0em 0.3em;
+}
+
+@media only screen and (min-width: 1200px) {
+  .order-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .order-container {
+    margin: 2em 0em;
+  }
+  .order-unit {
+    margin: 5em 1em;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .order-container {
+    font-size: 0.7em;
+  }
+}

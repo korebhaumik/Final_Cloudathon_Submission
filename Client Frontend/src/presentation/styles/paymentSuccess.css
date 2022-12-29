@@ -1,0 +1,48 @@
+.payment-container {
+  margin: 0em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.payment-container > svg {
+  height: 10em;
+  color: rgb(0, 159, 0);
+}
+.payment-container > h1 {
+  font-size: 3em;
+  margin-top: 0.3em;
+  font-weight: 500;
+  text-align: center;
+}
+.payment-container > h2 {
+  /* font-size: 3em; */
+  margin: 0.4em auto;
+  font-weight: 500;
+  text-align: center;
+}
+.gohome-link {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  margin: 0.5em 0em;
+  color: #0058cc;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.gohome-link > svg {
+  height: 1.2em;
+  margin: 0em 0.2em;
+}
+
+@media only screen and (max-width: 450px) {
+  .payment-container > h1 {
+    font-size: 2.5em;
+  }
+  .payment-container > h2 {
+    font-size: 1em;
+  }
+  .gohome-link {
+    font-size: 1em;
+  }
+}

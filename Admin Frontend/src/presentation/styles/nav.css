@@ -1,0 +1,45 @@
+header {
+  /* font-size: 16px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 5em;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 2.3em;
+  font-weight: 600;
+  /* font-size: 1em; */
+  color: #eeb627;
+  font-family: "Dancing Script", cursive;
+}
+
+span {
+  font-size: 1.2em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-a {
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    /* justify-content: center; */
+    margin: 2em auto;
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 2em 2em;
+  }
+}

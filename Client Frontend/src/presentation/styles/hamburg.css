@@ -1,0 +1,43 @@
+.hamburg-container {
+  position: relative;
+  display: none;
+}
+
+.menu-svg {
+  height: 20px;
+  cursor: pointer;
+}
+
+.dropdown {
+  background: #f7f7f7;
+  padding: 1.5em;
+  position: absolute;
+  width: fit-content;
+  right: 0%;
+  z-index: 10;
+}
+.dropdown > h1 {
+  font-size: 1em;
+  width: 5.5em;
+  margin: 0.2em 0em;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dropdown > svg {
+  height: 1em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.dropdown > svg :active {
+  color: red;
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-right {
+    display: none;
+  }
+  .hamburg-container {
+    display: block;
+  }
+}

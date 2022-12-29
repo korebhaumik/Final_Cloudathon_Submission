@@ -1,0 +1,88 @@
+.contact-container {
+  margin: 0em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+}
+
+.contact-left {
+  max-width: 30em;
+}
+.contact-left > h3 {
+  font-weight: 500;
+  font-size: 1em;
+  color: #787d7e;
+  margin: 0.5em 0em;
+}
+.contact-left > h1 {
+  font-weight: 500;
+  font-size: 3em;
+  margin: 0.5em 0em;
+}
+.contact-left > p {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 0.5em 0em;
+  color: #787d7e;
+}
+
+.contact-illu {
+  height: 20em;
+  margin: 2em;
+}
+
+.contact-right {
+  width: 25em;
+  background-color: #f7f7f7;
+  padding: 3em 5em;
+  margin-bottom: 5em;
+  /* background-color: #787d7e; */
+}
+.contact-right > hr {
+  border: none;
+  height: 2px;
+  background-color: #d9d9d9;
+  margin: 1em 0em;
+}
+
+.contact-right > div > svg {
+  height: 1.8em;
+  color: #0058cc;
+  margin: 1em;
+}
+.contact-right > div {
+  display: flex;
+  align-items: center;
+}
+
+.contact-right > div > h3 {
+  font-size: 1em;
+  font-weight: 500;
+  width: 10em;
+  /* background-color: #0058cc; */
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-container {
+    /* justify-content: center; */
+    margin: 2em auto;
+    max-width: 1000px;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .contact-container {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contact-container {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contact-container {
+    font-size: 0.6em;
+  }
+}
